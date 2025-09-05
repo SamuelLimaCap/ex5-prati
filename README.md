@@ -9,7 +9,7 @@ Você pode acessá-lo executando o projeto ou acessando o link: https://ex5-prat
 1. **Clonar o repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/SamuelLimaCap/ex5-prati.git
    ```
 
 2. **Instalar dependências**
@@ -18,21 +18,13 @@ Você pode acessá-lo executando o projeto ou acessando o link: https://ex5-prat
    npm install
    ```
 
-3. **Configurar a chave da API**
-   - Crie um arquivo `.env` na raiz do projeto.
-   - Adicione sua chave da API:
-
-     ```
-     VITE_API_KEY=sua_chave_aqui
-     ```
-
-4. **Iniciar o servidor**
+3. **Iniciar o servidor**
 
    ```bash
    npm run dev
    ```
 
-5. **Acessar no navegador**
+4. **Acessar no navegador**
 
    ```
    http://localhost:5173

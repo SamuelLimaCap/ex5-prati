@@ -1,7 +1,7 @@
 .search {
   --d-1: 14px;
 
-  width: max-content;
+  width: 100%;
   display: flex;
   align-items: center;
 

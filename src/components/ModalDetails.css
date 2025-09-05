@@ -1,0 +1,48 @@
+.modal-background {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #000000a0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.modal {
+  z-index: 101;
+  width: 70vw;
+  height: 70vh;
+  border: 1px solid var(--primary-color);
+  gap: 20px;
+  background-color: #100e02;
+  padding: 20px;
+  overflow-y: auto;
+  cursor: default;
+}
+
+.modal-header {
+  display: flex;
+  gap: 20px;
+}
+
+p > span {
+  background-color: #d7ad00;
+  margin: 0 0.2em;
+  padding: 3px;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+
+@media (max-width: 800px) {
+  .modal-header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
